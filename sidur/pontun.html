@@ -9,33 +9,39 @@
 <p>Pantaðu borð og mættu til okkar eða pantaðu mat sem við sendum þér eða þú sækir.</p>
 
 <h3>Panta borð</h3>
-<form action="process-form.php" method="post">
-<ul>
-    <li><label for="when">Hvenær viltu koma?</label>
-        <input type="text" id="when"  required></li>
-    <li>Hve mörg? [val um 1–10]</li>
-    <li>Viltu taka eitthvað fram? [val um að skrifa inn texta]</li>
-</ul>
+<form>
+  <fieldset>
+    <input type="time" id="time">
+    <label for="time">Klukkan hvað viljiði koma?</label>
+    <div>
+      <label for="number"> Hversu mörg?</label>
+      <select id="number" name="number">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+    </div>
+    <div>
+    <label for="what">Viltu taka eitthvað fram?</label>
+        <textarea name="text" placeholder="Ofnæmi etc." id="what"> </textarea>
+      </div>
+  </fieldset>
 </form>
+  
+
 
 <h3>Panta mat</h3>
 <ul>
     <li>Réttur #N [fimm reitir sem leyfa val úr titlum rétta á matseðli]</li>
     <li>Heimilisfang [val um að skrifa inn heimilisfang]</li>
 </ul>
-<h1>Contact Us</h1>
-<form action="process-form.php" method="post">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="4" required></textarea>
-
-    <input type="submit" value="Submit">
-</form>
 
   </body>
 </html>
