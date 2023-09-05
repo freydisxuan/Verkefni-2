@@ -33,7 +33,7 @@
         </div>
         <div>
           <label for="what">Viltu taka eitthvað fram?</label>
-          <textarea name="text" placeholder="Ofnæmi etc." id="what"> </textarea>
+          <input type="text" placeholder="Ofnæmi, viðbit etc." id="what"> </input>
         </div>
       </fieldset>
 
@@ -123,7 +123,7 @@
       <fieldset>
         <div>
           <label for="nafn">Nafn </label>
-          <input type="text" id="nafn" name="nafn" required >
+          <input type="text" id="nafn" name="nafn" placeholder="John Doe" required >
         </div>
         <div>
           <label for="netfang">Netfang</label>
@@ -131,7 +131,7 @@
             type="email"
             id="netfang"
             name="netfang"
-            placeholder="example@example.com"
+            placeholder="jon@jon.is"
             required>
         </div>
         <label for="sími">Sími </label>
@@ -143,10 +143,10 @@
           required>
       </fieldset>
       <div>
-        <label>
+        <p><label>
           Ég samþykki skilmála Veitingastaðsins
           <input type="checkbox" name="samthykki" required >
-        </label>
+        </label> </p>
       </div>
       <button type="submit">Panta</button>
     </form>
