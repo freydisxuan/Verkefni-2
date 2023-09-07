@@ -21,8 +21,8 @@
 Þetta form geir rnotendum kelift að velja mat
 
 - **Réttur 1, 2, 3, 4, 5 (Dropdown Selection)**
- - Notendur velja þá rétti sem þeir vilja úr valmyndinni.
- - Hægt er að velja upp í fimm mismunandi matréttum.
+  - Notendur velja þá rétti sem þeir vilja úr valmyndinni.
+  - Hægt er að velja upp í fimm mismunandi matréttum.
 
 - **Heimilisfang (Text Input)**
   - Notendur setja inn heimilisfang.
@@ -56,9 +56,9 @@ Tengill sem leyfir notendum að fara til baka á forsíðu.
 
 Gefur viðbótarupplýsingar um veitingastaðinn.
 
-- **Opnunartími (Opening Hours)**
+- **Opnunartími**
   - Opnunartími veitingastaðsins.
 
-- **Hér erum við (Location and Contact)**
+- **Hér erum við**
   - Gefur upplýsingar um veitingastaðinn, þar að meðal staðsetning, símanúmer og netfang.
 
